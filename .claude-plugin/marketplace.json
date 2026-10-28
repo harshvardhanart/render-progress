@@ -1,0 +1,13 @@
+{
+  "name": "render-progress",
+  "description": "Live render progress bar for Claude Code",
+  "owner": { "name": "Harshvardhan", "url": "https://github.com/harshvardhanart" },
+  "plugins": [
+    {
+      "name": "render-progress",
+      "description": "A live, modern terminal progress bar with CPU/GPU meters, opened automatically whenever Claude starts a render.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

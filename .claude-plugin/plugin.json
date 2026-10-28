@@ -1,0 +1,10 @@
+{
+  "name": "render-progress",
+  "version": "1.0.0",
+  "description": "A live, modern terminal progress bar for long renders (Remotion, or anything that logs N/M progress): gradient bar, %, frames, fps, elapsed, time left, finish time, CPU/RAM/GPU/VRAM meters and job steps. Claude opens it automatically whenever it starts a render.",
+  "author": { "name": "Harshvardhan", "url": "https://github.com/harshvardhanart" },
+  "homepage": "https://github.com/harshvardhanart/render-progress",
+  "repository": "https://github.com/harshvardhanart/render-progress",
+  "license": "MIT",
+  "keywords": ["render", "progress", "remotion", "ffmpeg", "video", "terminal", "gpu"]
+}
