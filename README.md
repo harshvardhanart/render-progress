@@ -29,7 +29,8 @@ In a real terminal the bar is an amber-to-red gradient, the meters turn green, a
 
 ## Features
 
-- A gradient bar with 1/8-character precision, plus the percentage.
+- A framed bar (rounded border) that fills with an amber gradient at 1/8-character precision, plus the percentage.
+- A responsive layout: everything fits the terminal width, with two meter columns when there is room and one when narrow.
 - Frames done / total, the **measured** speed (fps over the last ~20 s), elapsed time, time left, and the clock time it will finish.
 - **CPU, RAM, GPU and VRAM meters**, plus the GPU temperature (NVIDIA, via `nvidia-smi`). Meters with no data are hidden.
 - A row of job steps (`-Steps "Build,*Render,Encode,Deliver"`).

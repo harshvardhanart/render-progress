@@ -36,10 +36,10 @@ When the render ends the bar prints "All frames rendered" and exits by itself. S
 
 ## What it shows
 
-- A gradient bar with 1/8-character precision, and the percentage.
+- A framed bar (rounded border) that fills with an amber gradient at 1/8-character precision, and the percentage.
 - Frames done / total, measured fps (over the last ~20 s), elapsed, time left, and the clock time it will finish.
 - CPU and RAM meters (Windows performance counters), plus GPU utilisation, temperature and VRAM (NVIDIA, via `nvidia-smi`). A meter is hidden when its data is not available.
-- The job steps row.
+- The job steps row. The layout fits the terminal width: two meter columns when there is room, one when narrow.
 
 ## ffmpeg
 
